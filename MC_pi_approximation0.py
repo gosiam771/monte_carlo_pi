@@ -17,7 +17,7 @@ outside = 0  # number of points outside the circle
 for i in range(number_of_steps):
   for j in range(display_step):
     x = random.random()   # random position coordinates
-    y = random.random()   # random position coordinates
+    y = random.random()   
     d = math.sqrt(x**2 + y**2)  # the distance from the origin to the point (x,y) 
     if d < 1:   # checking if the point (x,y) is inside the circle
       inside += 1
